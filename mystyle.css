@@ -1,6 +1,22 @@
+body{
+    background-color: rgb(248, 226, 217);
+    color: #000;
+}
+
+hr{
+    height: 2px;
+    background-color: rgb(115, 173, 212);
+    border: 0px;
+}
+
 .NavBar{
-    background-color: rgb(179, 194, 226);
+    background-color: rgb(115, 173, 212);
     overflow: hidden;
+    position: sticky;
+}
+
+.LinksList a{
+    float: top;
 }
 
 .NavBar a{
@@ -10,4 +26,9 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-weight: bold;
+}
+
+.NavBar a:hover{
+    background-color: rgb(248, 226, 217);
 }
