@@ -11,6 +11,9 @@ hr{
 
 .NavBar{
     background-color: rgb(115, 173, 212);
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
     overflow: hidden;
     position: sticky;
 }
@@ -20,13 +23,11 @@ hr{
 }
 
 .NavBar a{
-    float: right;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
     font-size: 17px;
     font-weight: bold;
+    background-color: black;
+    display: inline-block;
+    padding: 0 12px;
 }
 
 .NavBar a:hover{
