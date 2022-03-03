@@ -35,8 +35,9 @@ hr{
 }
 
 iframe{
-    height: fit-content;
-    width: fit-content;
+    height: 528px;
+    width: 408px;
+    border: 0px;
     margin-right: 50px;
     float: right;
 }
