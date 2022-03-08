@@ -8,13 +8,16 @@ body{
     background-color: var(--bg-color);
     font: Georgia;
     color: rgb(2, 5, 36);
-    
+    overflow: visible;
+    padding: 0;
 }
 
 hr{
     height: 2px;
     background-color: rgb(188, 213, 229);
     border: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .NavBar{
@@ -31,14 +34,30 @@ hr{
     text-align: center;
 }
 
+.NavBar a{
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+    height: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+  
+.NavBar a:hover{
+    background-color: var(--bg-color);
+}
+
 .LinksList a{
     float: top;
 }
 
 #aboutme{
     color: var(--text-color);
+    
     margin-left: 50px;
-    margin-top: 30px
+    margin-top: 30px;
 }
 
 iframe{
@@ -55,34 +74,41 @@ iframe{
     margin-bottom: 15px;
     display: flex;
     align-content: flex-start;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1{
+    margin-left: 50px;
+    margin-top: 80px;
 }
 
 .icon{
     height: 30px;
     width: 30px;
+    margin: 0px;
+
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-self: center;
+
 }
 
 .BotBar{
-    position: relative;
     margin-top: 15px;
     margin-left: 0;
     margin-right: 0;
-    box-sizing: border-box;
+    margin-bottom: 0;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+
+    
+    box-sizing: content-box;
     width: 100%;
-    background-color: rgb(188, 213, 229);
+    background-color: rgb(17, 58, 83);
 }
 
-.NavBar a{
-  font-size: 17px;
-  font-weight: bold;
-  display: inline-block;
-  height: 100%;
-  padding-left: 16px;
-  padding-right: 16px;
-  text-decoration: none;
-  color: var(--text-color);
-}
 
-.NavBar a:hover{
-    background-color: var(--bg-color);
-}
