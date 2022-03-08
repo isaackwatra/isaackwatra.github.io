@@ -12,6 +12,12 @@ body{
     padding: 0;
 }
 
+/*Text elements*/
+h1{
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
 hr{
     height: 2px;
     background-color: rgb(188, 213, 229);
@@ -20,6 +26,7 @@ hr{
     margin-right: 50px;
 }
 
+/*Top navigation bar*/
 .NavBar{
     background-color: rgb(188, 213, 229);
     box-sizing: border-box;
@@ -49,27 +56,8 @@ hr{
     background-color: var(--bg-color);
 }
 
-.LinksList a{
-    float: top;
-}
-
-#aboutme{
-    color: var(--text-color);
-    
-    margin-left: 50px;
-    margin-top: 30px;
-}
-
-iframe{
-    background-color: black;
-    height: 1000px; /* 550 */
-    width: 408px;
-    margin-right: 50px;
-    margin-left: 50px;
-    justify-self: end;
-}
-
-#temp{
+/*main page text for Home*/
+#maincontent{
     margin-top: 15px;
     margin-bottom: 15px;
     display: flex;
@@ -78,37 +66,52 @@ iframe{
     margin-right: 50px;
 }
 
-h1{
+#aboutme{ 
+    color: var(--text-color);
+    font-size: large;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+iframe{
+    background-color: black;
+    height: 550px; /* 550 */
+    width: 408px;
+    margin-right: 50px;
     margin-left: 50px;
-    margin-top: 80px;
+    justify-self: end;
+}
+
+/*Bottom navigation bar*/
+.BotBar{
+    display: flex;
+    box-sizing: content-box;
+    height: 50px;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    
+    width: 100%;
+    background-color:  rgb(188, 213, 229);
 }
 
 .icon{
     height: 30px;
     width: 30px;
-    margin: 0px;
-
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    align-self: center;
-
-}
-
-.BotBar{
-    margin-top: 15px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    padding: 0px;
-    display: flex;
-    justify-content: flex-end;
-
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: -15px;
     
-    box-sizing: content-box;
-    width: 100%;
-    background-color: rgb(17, 58, 83);
+    padding: 0px;
 }
+
+
+
 
 
