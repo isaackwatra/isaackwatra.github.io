@@ -83,6 +83,27 @@ iframe{
     justify-self: end;
 }
 
+/* Contact main page content */
+#contactMC{
+    height: 300px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#contactMC.p{
+    background-color: bisque;
+}
+
+.Cicon{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(110, 77, 37);
+    align-self: flex-end;
+}
+
+
 /*Bottom navigation bar*/
 .BotBar{
     display: flex;
