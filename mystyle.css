@@ -5,6 +5,8 @@
 
 body{
     margin-top: 50px;
+    margin-left: 0px;
+    margin-bottom: 0px;
     background-color: var(--bg-color);
     font: Georgia;
     color: rgb(2, 5, 36);
